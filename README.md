@@ -11,10 +11,12 @@ git clone with your GitHub repository link
 python pipeline.py /accession file path/GenBank file path/sample information csv file path/blast database name
 
 #e.g.
+
 #To full run for HCMV samples with Betaherpesvirinae subfamily as blast database
 python pipeline.py HCMV/accessions HCMV/sequence.gb HCMV/sample_info.csv Betaherpesvirinae HCMV/sequence.fasta
 #To run test samples 
 python pipeline.py test/accessions test/sequence.gb test/sample_info.csv Betaherpesvirinae test/sequence.fasta
+
 #Test data included in Test.zip in this repo#
 
 ### Data preparation
