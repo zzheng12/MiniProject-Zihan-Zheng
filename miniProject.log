@@ -1,0 +1,36 @@
+The HCMV genome (EF999921) has 168 CDS
+
+
+target_id	test_stat	pval	qval
+
+Donor 1 (c) had 2259287 read pairs before Bowtie2 filtering and 2017175 read pairs after.
+
+
+Donor 1 (o) had 2004530 read pairs before Bowtie2 filtering and 1669634 read pairs after.
+
+
+Donor 3 (n) had 2730258 read pairs before Bowtie2 filtering and 2412106 read pairs after.
+
+
+Donor 3 (d) had 2476889 read pairs before Bowtie2 filtering and 1520131 read pairs after.
+
+
+spades.py -k 127 -t 16 --only-assembler -1 miniProject_Zihan_Zheng/5_assembly/merge_mapped_1.fastq -2 miniProject_Zihan_Zheng/5_assembly/merge_mapped_2.fastq -o miniProject_Zihan_Zheng/5_assembly/Spades
+
+
+There are 70 contigs > 1000 bp in the assembly.
+
+There are 156307 bp in the assembly.
+
+
+sacc	pident	length	qstart	qend	sstart	send	bitscore	evalue	stitle
+EF999921.1	99.993	13473	1	13473	89595	103067	24875	0.0	EF999921.1 Human herpesvirus 5 strain TB40/E clone TB40-BAC4	 complete sequence
+MT070140.1	99.993	13473	1	13473	57325	70797	24875	0.0	MT070140.1 UNVERIFIED: Human betaherpesvirus 5 isolate P10	 complete genome
+KF297339.1	99.993	13473	1	13473	57554	71026	24875	0.0	KF297339.1 Human herpesvirus 5 strain TB40/E clone Lisa	 complete genome
+KX544839.1	99.970	13473	1	13473	89578	103047	24855	0.0	KX544839.1 Human herpesvirus 5 isolate TB40-E_UNC	 complete genome
+MT044484.1	99.963	13473	1	13473	56906	70378	24853	0.0	MT044484.1 Human betaherpesvirus 5 strain HAN-SOT4	 complete genome
+KT726944.2	99.703	13473	1	13473	56926	70398	24659	0.0	KT726944.2 Human betaherpesvirus 5 strain NL/Rot5/Urine/2012	 partial genome
+KP745652.1	99.703	13473	1	13473	57171	70643	24659	0.0	KP745652.1 Human herpesvirus 5 strain BE/2/2011	 complete genome
+KP745701.1	99.688	13473	1	13473	57077	70549	24648	0.0	KP745701.1 Human herpesvirus 5 strain BE/6/2010	 complete genome
+KP745673.1	99.688	13473	1	13473	57010	70482	24648	0.0	KP745673.1 Human herpesvirus 5 strain BE/42/2011	 complete genome
+KP745676.1	99.688	13473	1	13473	57037	70509	24648	0.0	KP745676.1 Human herpesvirus 5 strain BE/28/2010	 complete genome
