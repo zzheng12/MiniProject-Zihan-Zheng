@@ -115,12 +115,19 @@ spades.py --test
 
 #Install blast+ 
 #Go to the BLAST download page at: ftp://ftp.ncbi.nlm.nih.gov/blast/executables/blast+/LATEST/ and download the compiled program for your machine
+
 #Unzip the zip file
+
 tar -xvzf ncbi-blast-2.11.0+-x64-linux.tar.gz
+
 #Navigate to its bin directory
+
 pwd
+
 #Copy the output path and save into PATH
+
 export PATH=<the copied path>:$PATH
+ 
 #Refresh bashrc file
 source ~/.bashrc
 
