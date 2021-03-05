@@ -4,7 +4,7 @@ Date 3/4/2021
 
 
 ### How to install this to your GitHub repository
-git clone <your GitHub repository link> 
+git clone with your GitHub repository link
 
 ### Usage
 #After navigating to the directory of pipeline.py
