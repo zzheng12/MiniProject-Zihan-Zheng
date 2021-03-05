@@ -55,8 +55,8 @@ mv EF999921.1 EF999921.1.fa
 #Make a local database of just sequences from your target (sub)family
 #e.g. make a nr database from Betaherpesvirinae subfamily. 
 #When searching sequences of Betaherpesvirinae subfamily in NCBI nucleotide database (by search with: txid10357[Organism:exp]), to have a nr nucleotide database, no source database should be excluded. They are downloaded by 
-#click Send to -> Select Complete Record -> Select File in Choose Destination -> Select 
-FASTA as format, and Sequence Length in Sort by -> Click Create File
+“click Send to -> Select Complete Record -> Select File in Choose Destination -> Select 
+FASTA as format, and Sequence Length in Sort by -> Click Create File”
 
 
 
