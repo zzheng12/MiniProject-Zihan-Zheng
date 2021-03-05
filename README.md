@@ -8,7 +8,7 @@ git clone with your GitHub repository link
 
 ### Usage
 #After navigating to the directory of pipeline.py
-python pipeline.py <accession file path> <GenBank file path> <sample information csv file path> <blast database name>
+python pipeline.py /accession file path/GenBank file path/sample information csv file path/blast database name
 
 #e.g.
 #To full run for HCMV samples with Betaherpesvirinae subfamily as blast database
